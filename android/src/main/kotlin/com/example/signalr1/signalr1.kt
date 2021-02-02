@@ -2,12 +2,7 @@ package com.example.signalr1
 
 import android.os.Looper
 import io.flutter.plugin.common.MethodChannel.Result
-import microsoft.aspnet.signalr.client.*
-import microsoft.aspnet.signalr.client.http.android.AndroidPlatformComponent
-import microsoft.aspnet.signalr.client.hubs.HubConnection
-import microsoft.aspnet.signalr.client.hubs.HubProxy
-import microsoft.aspnet.signalr.client.transport.LongPollingTransport
-import microsoft.aspnet.signalr.client.transport.ServerSentEventsTransport
+
 
 enum class CallMethod(val value: String) {
     ConnectToServer("connectToServer"),
